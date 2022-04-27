@@ -1,22 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .header {
     background-color: #1F2937;
 }
 
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin: 0;
+}
+
+.header-menu {
+
+}
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 .content-cover {
     background-color: #1F2937;
+}
+
+.cover-title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.cover-subtext {
+    color: white;
+}
+
+.cover-link {
+    background-color: #3882F6;
+    color: white;
 }
 
 .content-info {
 
 }
 
+.info-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 700;
+}
+
 .content-testimonials {
     background-color: #E5E7EB;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .content-engagement {
@@ -27,6 +83,16 @@ body {
     background-color: #3882F6;
 }
 
+.engagement-text {
+    color: white;
+}
+
+.engagement-link {
+    background-color: #3882F6;
+    color: white;
+}
+
 .footer {
     background-color: #1F2937;
+    color: white;
 }
