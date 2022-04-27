@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.content-cover {
+    background-color: #1F2937;
+}
+
+.content-info {
+
+}
+
+.content-testimonials {
+    background-color: #E5E7EB;
+}
+
+.content-engagement {
+
+}
+
+.engagement-card {
+    background-color: #3882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+}
