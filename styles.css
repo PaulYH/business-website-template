@@ -90,7 +90,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 80px;
+    padding: 100px;
 }
 
 .info-title {
@@ -132,7 +132,7 @@ a {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 60px;
+    padding: 100px;
     padding-right: 450px;
     padding-left: 450px;
 }
@@ -158,31 +158,47 @@ a {
 }
 
 .content-engagement {
-
+    display: flex;
+    flex-direction: column;
+    margin: 100px 600px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 .engagement-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #3882F6;
+    padding: 40px 30px;
+    gap: 80px;
+    border-radius: 8px;
+    max-width: 900px;
+    flex-shrink: 0;
 }
 
 .engagement-text {
+    display: flex;
+    flex-direction: column;
     color: white;
+    gap: 5px;
 }
 
 .engagement-title {
-    
-}
-
-.engagement-subtext {
-    
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .engagement-link {
     background-color: #3882F6;
     color: white;
+    border: white solid 2px;
 }
 
 .footer {
     background-color: #1F2937;
     color: white;
+    padding: 50px 70px;
+    text-align: center;
 }
