@@ -43,14 +43,26 @@ li {
 
 a {
     text-decoration: none;
+    max-width: 75px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
 }
 
 .content-cover {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
     padding: 200px;
     flex-wrap: wrap;
     gap: 80px;
+}
+
+.cover-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .cover-title {
@@ -74,25 +86,55 @@ a {
 }
 
 .content-info {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
 }
 
 .info-title {
     color: #1F2937;
     font-size: 36px;
     font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 25px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .card-img {
-  
+    width: 200px;
+    border: #3882F6 solid 4px;
+    border-radius: 20px;
 }
 
 .card-subtext {
-    
+    width: 200px;
+    text-align: center;
 }
 
 .content-testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
+    padding: 60px;
+    padding-right: 450px;
+    padding-left: 450px;
 }
 
 .quote-text {
@@ -100,11 +142,19 @@ a {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-   
+    max-width: 900px;
+}
+
+.quote-box {
+    display: flex;
 }
 
 .quote-author {
-    
+    align-self: flex-end;
+    font-size: 25px;
+    font-weight: bold;
+    width: 900px;
+    text-align: end;
 }
 
 .content-engagement {
